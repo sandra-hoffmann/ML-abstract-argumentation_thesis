@@ -1,0 +1,59 @@
+\begin{table}[h]
+\centering
+\scalebox{0.85}{
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+\multicolumn{8}{|c|}{closeness_centrality_degree_no_of_sccs_betweenness_centrality_avg_degree_scc_size} \\ \hline
+\textbf{Classifier} & \textbf{MCC} & \textbf{Accuracy} & \textbf{TPR} & \textbf{TNR} & \textbf{Precision} &  \textbf{Time Train} &  \textbf{Time Predict} \\ \hline
+\multicolumn{8}{|c|}{DC-PR} \\ \hline
+KNN & 0.492 & 0.863 & 0.492 & 0.944 & 0.660 & 0.217 & 0.830\\ \hline
+NB & 0.565 & 0.878 & 0.587 & 0.942 & 0.691 & 0.413 & 0.009\\ \hline
+DT & 0.524 & 0.848 & 0.673 & 0.887 & 0.566 & 1.162 & 0.003\\ \hline
+RF & 0.734 & 0.925 & 0.709 & 0.973 & 0.852 & 18.547 & 0.233\\ \hline
+SVM lin & 0.611 & 0.887 & 0.660 & 0.937 & 0.699 & 2.327 & 0.001\\ \hline
+\multicolumn{8}{|c|}{DC-CO} \\ \hline
+KNN & 0.492 & 0.863 & 0.492 & 0.944 & 0.660 & 0.218 & 0.832\\ \hline
+NB & 0.565 & 0.878 & 0.587 & 0.942 & 0.691 & 0.403 & 0.001\\ \hline
+DT & 0.538 & 0.855 & 0.673 & 0.895 & 0.585 & 1.154 & 0.003\\ \hline
+RF & 0.735 & 0.926 & 0.710 & 0.973 & 0.852 & 18.378 & 0.230\\ \hline
+SVM lin & 0.611 & 0.887 & 0.660 & 0.937 & 0.699 & 2.310 & 0.001\\ \hline
+\multicolumn{8}{|c|}{DC-ST} \\ \hline
+KNN & 0.470 & 0.864 & 0.477 & 0.942 & 0.627 & 0.214 & 0.833\\ \hline
+NB & 0.562 & 0.879 & 0.625 & 0.930 & 0.646 & 0.402 & 0.001\\ \hline
+DT & 0.496 & 0.833 & 0.703 & 0.859 & 0.504 & 0.995 & 0.003\\ \hline
+RF & 0.674 & 0.914 & 0.640 & 0.970 & 0.814 & 16.021 & 0.211\\ \hline
+SVM lin & 0.019 & 0.831 & 0.001 & 1.000 & 0.583 & 1.917 & 0.002\\ \hline
+\multicolumn{8}{|c|}{DC-GR} \\ \hline
+KNN & 0.329 & 0.927 & 0.475 & 0.947 & 0.280 & 0.214 & 0.833\\ \hline
+NB & -0.006 & 0.835 & 0.125 & 0.866 & 0.039 & 0.393 & 0.001\\ \hline
+DT & 0.438 & 0.940 & 0.591 & 0.956 & 0.369 & 1.125 & 0.002\\ \hline
+RF & 0.677 & 0.977 & 0.564 & 0.995 & 0.838 & 15.915 & 0.166\\ \hline
+SVM lin & -0.002 & 0.958 & 0.000 & 1.000 & 0.000 & 1.549 & 0.001\\ \hline
+\multicolumn{8}{|c|}{DS-PR} \\ \hline
+KNN & 0.284 & 0.904 & 0.389 & 0.938 & 0.287 & 0.211 & 0.838\\ \hline
+NB & -0.014 & 0.816 & 0.119 & 0.861 & 0.053 & 0.389 & 0.002\\ \hline
+DT & 0.290 & 0.883 & 0.479 & 0.909 & 0.253 & 1.209 & 0.003\\ \hline
+RF & 0.585 & 0.960 & 0.436 & 0.994 & 0.831 & 17.689 & 0.216\\ \hline
+SVM lin & -0.003 & 0.939 & 0.000 & 1.000 & 0.000 & 1.921 & 0.002\\ \hline
+\multicolumn{8}{|c|}{DS-CO} \\ \hline
+KNN & 0.319 & 0.918 & 0.458 & 0.941 & 0.284 & 0.214 & 0.848\\ \hline
+NB & -0.013 & 0.828 & 0.115 & 0.864 & 0.041 & 0.393 & 0.002\\ \hline
+DT & 0.462 & 0.939 & 0.589 & 0.957 & 0.412 & 1.159 & 0.003\\ \hline
+RF & 0.657 & 0.973 & 0.513 & 0.996 & 0.873 & 16.581 & 0.186\\ \hline
+SVM lin & -0.003 & 0.951 & 0.000 & 1.000 & 0.000 & 1.524 & 0.001\\ \hline
+\multicolumn{8}{|c|}{DS-ST} \\ \hline
+KNN & 0.661 & 0.840 & 0.827 & 0.848 & 0.750 & 0.215 & 0.849\\ \hline
+NB & 0.507 & 0.725 & 0.895 & 0.631 & 0.572 & 0.399 & 0.001\\ \hline
+DT & 0.552 & 0.776 & 0.826 & 0.749 & 0.645 & 1.106 & 0.002\\ \hline
+RF & 0.736 & 0.880 & 0.808 & 0.920 & 0.848 & 16.455 & 0.198\\ \hline
+SVM lin & 0.534 & 0.708 & 0.979 & 0.559 & 0.551 & 2.775 & 0.001\\ \hline
+\multicolumn{8}{|c|}{DS-GR} \\ \hline
+KNN & 0.329 & 0.927 & 0.475 & 0.947 & 0.280 & 0.213 & 0.845\\ \hline
+NB & -0.006 & 0.835 & 0.125 & 0.866 & 0.039 & 0.392 & 0.001\\ \hline
+DT & 0.533 & 0.960 & 0.596 & 0.976 & 0.516 & 1.118 & 0.002\\ \hline
+RF & 0.672 & 0.977 & 0.557 & 0.995 & 0.838 & 15.824 & 0.167\\ \hline
+SVM lin & -0.002 & 0.958 & 0.000 & 1.000 & 0.000 & 1.488 & 0.001\\ \hline
+\end{tabular}
+}
+\caption{Results for test seticcma-test. Classifiers trained with training set iccma-train, features used: closeness_centrality_degree_no_of_sccs_betweenness_centrality_avg_degree_scc_size}
+\end{table}

@@ -1,0 +1,59 @@
+\begin{table}[h]
+\centering
+\scalebox{0.85}{
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+\multicolumn{8}{|c|}{degree_closeness_centrality_betweenness_centrality_avg_degree_katz_centrality_scc_size_no_of_sccs} \\ \hline
+\textbf{Classifier} & \textbf{MCC} & \textbf{Accuracy} & \textbf{TPR} & \textbf{TNR} & \textbf{Precision} &  \textbf{Time Train} &  \textbf{Time Predict} \\ \hline
+\multicolumn{8}{|c|}{DC-PR} \\ \hline
+KNN & 0.699 & 0.864 & 0.749 & 0.928 & 0.853 & 2.978 & 2.210\\ \hline
+NB & 0.465 & 0.738 & 0.751 & 0.731 & 0.608 & 4.555 & 0.001\\ \hline
+DT & 0.664 & 0.846 & 0.783 & 0.881 & 0.785 & 14.364 & 0.006\\ \hline
+RF & 0.761 & 0.891 & 0.778 & 0.954 & 0.905 & 299.193 & 0.670\\ \hline
+SVM lin & 0.614 & 0.820 & 0.777 & 0.844 & 0.735 & 41.672 & 0.001\\ \hline
+\multicolumn{8}{|c|}{DC-CO} \\ \hline
+KNN & 0.699 & 0.864 & 0.749 & 0.928 & 0.853 & 2.887 & 2.192\\ \hline
+NB & 0.465 & 0.738 & 0.751 & 0.731 & 0.608 & 4.582 & 0.001\\ \hline
+DT & 0.662 & 0.845 & 0.782 & 0.880 & 0.784 & 14.360 & 0.006\\ \hline
+RF & 0.760 & 0.891 & 0.778 & 0.954 & 0.903 & 300.064 & 0.709\\ \hline
+SVM lin & 0.614 & 0.820 & 0.777 & 0.844 & 0.735 & 41.094 & 0.001\\ \hline
+\multicolumn{8}{|c|}{DC-ST} \\ \hline
+KNN & 0.672 & 0.857 & 0.726 & 0.923 & 0.827 & 2.872 & 2.182\\ \hline
+NB & 0.450 & 0.731 & 0.752 & 0.721 & 0.577 & 4.500 & 0.001\\ \hline
+DT & 0.605 & 0.824 & 0.738 & 0.867 & 0.738 & 15.536 & 0.007\\ \hline
+RF & 0.730 & 0.882 & 0.755 & 0.946 & 0.876 & 322.935 & 0.934\\ \hline
+SVM lin & 0.606 & 0.823 & 0.745 & 0.863 & 0.733 & 39.842 & 0.003\\ \hline
+\multicolumn{8}{|c|}{DC-GR} \\ \hline
+KNN & 0.792 & 0.925 & 0.788 & 0.970 & 0.894 & 3.511 & 2.180\\ \hline
+NB & 0.560 & 0.777 & 0.909 & 0.734 & 0.527 & 5.458 & 0.001\\ \hline
+DT & 0.749 & 0.908 & 0.789 & 0.947 & 0.829 & 13.815 & 0.005\\ \hline
+RF & 0.845 & 0.944 & 0.839 & 0.978 & 0.925 & 292.743 & 0.481\\ \hline
+SVM lin & 0.727 & 0.894 & 0.842 & 0.911 & 0.755 & 24.081 & 0.001\\ \hline
+\multicolumn{8}{|c|}{DS-PR} \\ \hline
+KNN & 0.722 & 0.891 & 0.739 & 0.950 & 0.855 & 3.040 & 2.187\\ \hline
+NB & 0.472 & 0.739 & 0.808 & 0.712 & 0.525 & 4.531 & 0.001\\ \hline
+DT & 0.676 & 0.867 & 0.779 & 0.902 & 0.758 & 14.465 & 0.006\\ \hline
+RF & 0.775 & 0.911 & 0.771 & 0.966 & 0.900 & 307.266 & 0.631\\ \hline
+SVM lin & 0.631 & 0.841 & 0.803 & 0.856 & 0.688 & 38.994 & 0.001\\ \hline
+\multicolumn{8}{|c|}{DS-CO} \\ \hline
+KNN & 0.803 & 0.929 & 0.814 & 0.966 & 0.885 & 2.916 & 2.227\\ \hline
+NB & 0.560 & 0.777 & 0.910 & 0.733 & 0.526 & 4.558 & 0.001\\ \hline
+DT & 0.788 & 0.921 & 0.850 & 0.944 & 0.831 & 11.551 & 0.004\\ \hline
+RF & 0.851 & 0.946 & 0.857 & 0.975 & 0.917 & 250.393 & 0.490\\ \hline
+SVM lin & 0.710 & 0.882 & 0.869 & 0.886 & 0.713 & 23.256 & 0.002\\ \hline
+\multicolumn{8}{|c|}{DS-ST} \\ \hline
+KNN & 0.506 & 0.763 & 0.805 & 0.700 & 0.800 & 2.983 & 2.216\\ \hline
+NB & 0.158 & 0.587 & 0.617 & 0.543 & 0.668 & 4.623 & 0.001\\ \hline
+DT & 0.459 & 0.739 & 0.779 & 0.680 & 0.784 & 15.489 & 0.010\\ \hline
+RF & 0.589 & 0.803 & 0.838 & 0.750 & 0.833 & 335.641 & 1.126\\ \hline
+SVM lin & 0.347 & 0.696 & 0.856 & 0.458 & 0.702 & 51.990 & 0.001\\ \hline
+\multicolumn{8}{|c|}{DS-GR} \\ \hline
+KNN & 0.792 & 0.925 & 0.788 & 0.970 & 0.894 & 3.388 & 2.208\\ \hline
+NB & 0.560 & 0.777 & 0.909 & 0.734 & 0.527 & 5.045 & 0.003\\ \hline
+DT & 0.747 & 0.908 & 0.787 & 0.947 & 0.829 & 13.718 & 0.005\\ \hline
+RF & 0.848 & 0.945 & 0.843 & 0.978 & 0.926 & 291.101 & 0.508\\ \hline
+SVM lin & 0.727 & 0.894 & 0.842 & 0.911 & 0.755 & 23.108 & 0.000\\ \hline
+\end{tabular}
+}
+\caption{Results for test setpbbg-test. Classifiers trained with training set pbbg-train, features used: degree_closeness_centrality_betweenness_centrality_avg_degree_katz_centrality_scc_size_no_of_sccs}
+\end{table}
