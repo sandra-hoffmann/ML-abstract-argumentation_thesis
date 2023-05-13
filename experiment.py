@@ -242,8 +242,8 @@ for single_feature in all_features:
 
             print("Naive Bayes")
             start = time.time()
-            clf = GaussianNB()
-            #clf = ComplementNB(force_alpha=True)
+            #clf = GaussianNB()
+            clf = ComplementNB(force_alpha=True)
             clf.fit(X_train, y_train)
             end = time.time()
             train_time = end - start
