@@ -21,12 +21,12 @@ The project provides a command-line interface for running the classifiers. You c
 
 ### Single Features 
 ```shell
-python main.py -X path/to/training/data -y path/to/testing/data -features "[feature1, feature2, feature3]"
+python experiment.py -X path/to/training/data -y path/to/testing/data -features "[feature1, feature2, feature3]"
 ```
 
 ### Feature Combinations
 ```shell
-python main.py -X path/to/training/data -y path/to/testing/data -timeout 600000 -features "[[feature1, feature2], [feature1, feature2, feature3]]"
+python experiment.py -X path/to/training/data -y path/to/testing/data -timeout 600000 -features "[[feature1, feature2], [feature1, feature2, feature3]]"
 ```
 
 - `-X`: Path to the training data
@@ -58,7 +58,7 @@ The results of the classifiers will be saved in a text file named `testruns/TEST
 
 ## Note
 
-Due to the large amount of Ads in the PBBG Dataset it was not possible to upload the solutions and pkl files for this dataset.
+Due to the large amount of AFs in the PBBG Dataset, it was not possible to upload the solutions and pkl files for this dataset.
 
 
 
